@@ -1,0 +1,28 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    /* font-family: 'Wix Madefor Display', sans-serif; */
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  input:checked ~ .dot {
+    transform: translateX(100%);
+    background-color: #000;
+}
+.active{
+    background-color: rgb(212 212 216);
+    border-start-end-radius: 9999px;
+	  border-end-end-radius: 9999px;
+    color :rgb(25 103 210)
+}
+
+.glassmorphic {
+  box-shadow: rgba(255, 255, 255, 0.5) -10px -10px 45px inset,
+    rgba(0, 0, 0, 0.1) 10px 10px 20px, rgba(0, 0, 0, 0.06) 5px 5px 10px;
+}
